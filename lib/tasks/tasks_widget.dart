@@ -60,7 +60,7 @@ class _TasksWidgetState extends State<TasksWidget> {
             width: double.infinity,
             height: double.infinity,
             decoration: BoxDecoration(
-              color: FlutterFlowTheme.of(context).primary,
+              color: FlutterFlowTheme.of(context).secondary,
               borderRadius: BorderRadius.circular(50.0),
               border: Border.all(
                 width: 1.0,

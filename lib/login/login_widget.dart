@@ -1142,7 +1142,7 @@ class _LoginWidgetState extends State<LoginWidget>
                               context.goNamedAuth(
                                   OnboardingWidget.routeName, context.mounted);
                             },
-                            text: 'Signup',
+                            text: 'Sign-up',
                             options: FFButtonOptions(
                               width: double.infinity,
                               height: 70.0,
@@ -1150,7 +1150,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                   16.0, 0.0, 16.0, 0.0),
                               iconPadding: EdgeInsetsDirectional.fromSTEB(
                                   16.0, 24.0, 16.0, 24.0),
-                              color: FlutterFlowTheme.of(context).primary,
+                              color: FlutterFlowTheme.of(context).secondary,
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleSmall
                                   .override(
